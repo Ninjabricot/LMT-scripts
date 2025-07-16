@@ -109,7 +109,7 @@ def plot(transitions):
     plt.tight_layout()
 
     # Export .eps et .png
-    save_dir = r"C:\Users\I9_1\Desktop\données csv pour python\figure clement"
+    save_dir = r"C:\Users\I9_1\Desktop\LMT"
     os.makedirs(save_dir, exist_ok=True)
     fname = os.path.join(save_dir, "transitions_AC_to_B")
     fig.savefig(fname + ".eps", format="eps")
@@ -121,7 +121,7 @@ def plot(transitions):
 if __name__ == "__main__":
     delay_before = -5000
     delay_after = 3000
-    csv_paths = glob.glob(r"C:\Users\I9_1\Desktop\données csv pour python\clement dataframeM2\DB*.csv")
+    csv_paths = glob.glob(r"C:\Users\I9_1\Desktop\LMT\dataframeM2\DB*.csv")
     if not csv_paths:
         raise FileNotFoundError("Aucun CSV trouvé")
 

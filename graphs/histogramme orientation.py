@@ -132,7 +132,7 @@ class PolarHistogramByRank:
         fig.suptitle(title, fontsize=16)
         plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 
-        save_dir = r"C:\Users\I9_1\Desktop\données csv pour python\figure clement"
+        save_dir = r"C:\Users\I9_1\Desktop\LMT"
         fname = f"{save_dir}/polar_{self.rank_value}_{title.replace(' ', '_')}"
         fig.savefig(fname + ".eps", format='eps')
         fig.savefig(fname + ".png", format='png')
@@ -167,7 +167,7 @@ class PolarHistogramByRank:
         ax.legend()
         plt.tight_layout()
 
-        save_dir = r"C:\Users\I9_1\Desktop\données csv pour python\figure clement"
+        save_dir = r"C:\Users\I9_1\Desktop\LMT"
         fname = f"{save_dir}/histogram_{self.rank_value}_{title.replace(' ', '_')}"
         fig.savefig(fname + ".eps", format='eps')
         fig.savefig(fname + ".png", format='png')
@@ -186,13 +186,13 @@ if __name__ == "__main__":
     if rank_in not in {"1", "2", "3"}:
         raise ValueError("Rank doit être 1, 2 ou 3.")
 
-    csv_files = glob.glob(r"C:\Users\I9_1\Desktop\données csv pour python\clement dataframeM2\DB*.csv")
+    csv_files = glob.glob(r"C:\Users\I9_1\Desktop\LMT\dataframeM2\DB*.csv")
     if not csv_files:
         raise FileNotFoundError("Aucun DB_*.csv trouvé")
 
     plotter = PolarHistogramByRank(
         db_csv_paths=csv_files,
-        arche_csv=r"C:\Users\I9_1\Desktop\données csv pour python\mice_archetypes_all_data.csv",
+        arche_csv=r"C:\Users\I9_1\Desktop\LMT\mice_archetypes_all_data.csv",
         target_coords=target,
         rank_value=rank_in
     )

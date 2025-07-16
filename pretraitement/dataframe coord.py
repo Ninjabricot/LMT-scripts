@@ -11,7 +11,7 @@ class MouseDataProcessor:
         self,
         db_path,
         event_csv_path=None,
-        output_dir=r"C:\Users\I9_1\Desktop\données csv pour python\dataframeF2",
+        output_dir=r"C:\Users\I9_1\Desktop\LMT\dataframeM2",
         output_csv_path=None,
         date_str=None,
     ):
