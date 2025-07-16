@@ -22,7 +22,7 @@ db_dirs = [
 
 
 ]
-out_dir = r"C:\Users\I9_1\Desktop\données csv pour python\clement dataframeM2"
+out_dir = r"C:\Users\I9_1\Desktop\données csv pour python\dataframeM2"
 ZONE = dict(x_min=215, x_max=310, y_min=320, y_max=385)
 chunk_size = 900
 
