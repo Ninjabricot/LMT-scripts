@@ -2,7 +2,7 @@ Pour le praitraitement creer les dossiers suivants :
 - "...\Desktop\LMT"
 - "...\Desktop\LMT\dataframeF2"
 - "...\Desktop\LMT\dataframeM2"
-- 
+  
 Et mettre le fichier mice_archetypes_all_data.csv dans "...\Desktop\LMT"
 
 Si le fichier event dans les observations est au format .pkl -> utiliser dataframe event (pkl)
