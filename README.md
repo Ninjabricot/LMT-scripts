@@ -9,7 +9,7 @@ Si le fichier event dans les observations est au format .csv -> utiliser datafra
 Des figures seront exportés dans le dossier LMT 
 
 
-histogramme changement de zone -> regarde le % d'animaux (non presseur) qui vont de la zone A/C -> B apres un appui levier
-histogramme distribution spaciale -> distribution spaciale des animaux (non presseur) avant/apres appui levier
-histogramme orientation -> angle entre le feeder et l'axe tete - centre de masse de l'animal non presseur (0° = orienté face au feeder)
-vector map -> orientation des animaux (non presseur) 2s apres un appui levier
+- histogramme changement de zone -> regarde le % d'animaux (non presseur) qui vont de la zone A/C -> B apres un appui levier
+- histogramme distribution spaciale -> distribution spaciale des animaux (non presseur) avant/apres appui levier
+- histogramme orientation -> angle entre le feeder et l'axe tete - centre de masse de l'animal non presseur (0° = orienté face au feeder)
+- vector map -> orientation des animaux (non presseur) 2s apres un appui levier
